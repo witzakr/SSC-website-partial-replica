@@ -1,0 +1,309 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  margin-top: 20px;
+}
+
+header img {
+  width: 168px;
+  height: 58px;
+  margin-left: 60px;  
+}
+
+.lupa {
+  margin-left: auto;
+  margin-right: 30px;
+}
+
+.jezyk {
+  font-family: Lato,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  color: #666;
+  margin-top: 17px;
+  margin-right: 60px;
+  text-decoration: none;
+}
+
+.jezyk:hover {
+  text-decoration: underline;
+  color: #2b2276;
+}
+
+nav {
+  background-color: #302683;
+  width: 100%;
+  height: 60px;
+  margin-top: 10px;
+  display: flex;
+}
+
+.dropdown {
+  position: static;
+  display: inline-block;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  z-index: 1;
+}
+
+
+.dropdown-button {
+  background-color: #302683;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  margin-top: 12px;
+  margin-left: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+
+.dropdown-content a {
+  padding: 10px;
+  text-decoration: none;
+  display: block;
+  color: #333;
+}
+
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.middle {
+  display: flex;
+}
+
+.middle img {
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+
+  .bluebar {
+      position: absolute;
+      top: 30%;
+      background-color: rgba(48,38,131,.7); ;
+      width: 100%; 
+      height: 250px;
+      transform: translate(0, 60px);
+      text-align: left;
+      display: flex;
+    }
+  
+  .bluebar h2 {
+    font-weight: 200;
+  }
+  
+  .bluebar h1 {
+    margin: 0; 
+    padding: 10px; 
+    color: white;
+    margin-top: 60px;
+    margin-left: 40px;
+    font-weight: bold;
+    font-family: Gilroy,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+    font-size: 30px;
+    height: 10px;
+  }
+  
+  .bluebar p {
+    margin-left: 10px;
+    font-size: xx-large;
+    font-family: Gilroy,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+
+  }
+  
+  .buttons {
+    background-color: #302683;
+    height: 100px;
+    margin-bottom: 0; 
+    width: 300px;
+    position: absolute;
+    right: 120px;
+    height: 250px;
+    justify-content: center;
+  }
+  
+  .buttons:hover {
+    text-decoration: underline;
+    color: white;
+  }
+  
+  .buttons h2 {
+    color: white;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: Gilroy,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+    text-decoration: none;
+  }
+  
+  .buttons a {
+    color: white;
+    display: block;
+    margin: 0 auto; 
+    text-decoration: none;
+    outline: 3px solid white;
+    height: 50px;
+    line-height: 50px; 
+    text-align: center;
+    width: 250px;
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+    font-size: .875rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Gilroy,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  }
+
+  .headline {
+    margin-left: 50px;
+    font-weight: 700px;
+    font-family: Gilroy,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  }
+
+  .news {
+    display: flex;
+    margin-left: 25px;
+  }
+
+  .news1 img {
+    width: 400px;
+    padding: 10px;
+  }
+  
+  .news1 h5 {
+    color: rgb(101, 100, 100);
+    font-family: Gilroy,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+    margin-left: 10px;
+    font-weight: 700;
+  }
+  
+  .news1 h2 a {
+    color:black;
+    margin-left: 10px;
+    font-family: Gilroy,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  
+  .news1 h2 a:hover {
+    text-decoration: underline;
+  }
+  
+  .news1 a:hover {
+    color: black;
+  }
+  
+  .news1 p {
+    color: gray;
+    margin-left: 10px;
+    font-family: Gilroy,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+    font-weight: 400;
+  }
+  
+  .news1 a {
+    color:#302683;
+    margin-left: 10px;
+    font-family: Gilroy,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+    font-weight: 700;
+  }
+
+  .news2 {
+    float: right;
+    margin-left: 150px;
+  }
+  
+  .news2 th {
+    text-align: left;
+    font-weight: 700;
+    font-family: Gilroy,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  }
+  
+  .news2 h2 a {
+    color: black;
+    font-size: large;
+    text-decoration: none;
+    font-weight: 700;
+    font-family: Gilroy,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  }
+  
+  .news2 h2 a:hover {
+    text-decoration: underline;
+  }
+  
+  .news h3 {
+    color: rgb(101, 100, 100);
+    font-weight: 700;
+    font-size: medium;
+    font-family: Gilroy,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  }
+
+  footer {
+    background-color:#302683;
+    height: auto;
+  }
+  
+  footer h1 {
+    color: white;
+    font-family: Gilroy,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+    font-weight: 700;
+    margin-bottom: 30px;
+    margin-left: 90px;
+    margin-top: 10px;
+  }
+  
+  footer h3 {
+    color: white;
+    font-family: Gilroy,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+    font-weight: 700;
+    margin-left: 90px;
+  }
+  
+  footer p {
+    color: white;
+    font-family: Gilroy,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+    font-weight: 400;
+    margin-left: 90px;
+  }
+  
+  footer h2 {
+    color: white;
+    font-family: Gilroy,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+    font-weight: 700;
+    margin-left: 90px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  
+  footer p a {
+    color: white;
+    font-family: Gilroy,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+    font-weight: 700;
+  }
+  
+  footer a:hover {
+    text-decoration: none;
+  }
+  
+  footer img {
+    margin-left: 90px;
+    margin-right: -80px; 
+    margin-bottom: 30px;
+  }
+  
