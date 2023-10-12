@@ -14,12 +14,12 @@ header img {
   margin-left: 60px;  
 }
 
-.lupa {
+.mglass {
   margin-left: auto;
   margin-right: 30px;
 }
 
-.jezyk {
+.language {
   font-family: Lato,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
   color: #666;
   margin-top: 17px;
@@ -27,7 +27,7 @@ header img {
   text-decoration: none;
 }
 
-.jezyk:hover {
+.language:hover {
   text-decoration: underline;
   color: #2b2276;
 }
@@ -172,14 +172,21 @@ nav {
   }
 
   .headline {
-    margin-left: 50px;
+    margin-left: 300px;
     font-weight: 700px;
     font-family: Gilroy,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+    display: flex;
+    text-transform: uppercase;
   }
 
   .news {
     display: flex;
     margin-left: 25px;
+    justify-content: center;
+  }
+
+  .news1 {
+    margin-right: 60px;
   }
 
   .news1 img {
@@ -233,6 +240,7 @@ nav {
     text-align: left;
     font-weight: 700;
     font-family: Gilroy,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+    padding: 5px;
   }
   
   .news2 h2 a {
@@ -241,6 +249,7 @@ nav {
     text-decoration: none;
     font-weight: 700;
     font-family: Gilroy,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+    margin-left: 10px;
   }
   
   .news2 h2 a:hover {
@@ -252,58 +261,42 @@ nav {
     font-weight: 700;
     font-size: medium;
     font-family: Gilroy,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+    margin-left: 10px;
   }
 
   footer {
     background-color:#302683;
-    height: auto;
+    display: flex;
+    margin-top: 40px;
+    color: white;
+    list-style-type: none;
+    font-family: Gilroy,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  }
+
+  .first-footer {
+    margin-left: 40px;
+    margin-top: 20px;
+  }
+
+  .first-footer ul {
+    list-style-type: none;
+  }
+
+  .first-footer h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+  }
+
+  .first-footer a {
+    color: white;
   }
   
-  footer h1 {
-    color: white;
-    font-family: Gilroy,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
-    font-weight: 700;
-    margin-bottom: 30px;
-    margin-left: 90px;
-    margin-top: 10px;
-  }
-  
-  footer h3 {
-    color: white;
-    font-family: Gilroy,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
-    font-weight: 700;
-    margin-left: 90px;
-  }
-  
-  footer p {
-    color: white;
-    font-family: Gilroy,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
-    font-weight: 400;
-    margin-left: 90px;
-  }
-  
-  footer h2 {
-    color: white;
-    font-family: Gilroy,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
-    font-weight: 700;
-    margin-left: 90px;
+  .image-container {
+    margin-left: 40px;
     margin-top: 30px;
-    margin-bottom: 20px;
   }
-  
-  footer p a {
-    color: white;
-    font-family: Gilroy,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
-    font-weight: 700;
+
+  .image-container img {
+    height: 60px;
   }
-  
-  footer a:hover {
-    text-decoration: none;
-  }
-  
-  footer img {
-    margin-left: 90px;
-    margin-right: -80px; 
-    margin-bottom: 30px;
-  }
-  
+
